@@ -14,7 +14,7 @@ if not firebase_admin._apps:
     firebase_admin.initialize_app(cred)
 
 # Google API Key for GenAI
-GOOGLE_API_KEY = 'AIzaSyDlfQowL4ytEsQ8rBn6XJb1ED3QUCUksFo'
+GOOGLE_API_KEY = 'AIzaSyAhPdM6jGrv-CTRuI6tqOrd4qXmyObJnpY'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Streamlit page configuration
